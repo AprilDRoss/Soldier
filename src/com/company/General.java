@@ -1,11 +1,10 @@
 package com.company;
 
 public class General extends CommonSoldier implements UseWeapon, UseKnife, UseHandToHandCombat {
+
     public General(String name, String rank, String ID, int yearsOfService){
         super(name, rank ="General", ID, yearsOfService);
-
     }
-
 
     public String march(){
         return "I've marched over one hundred miles";
@@ -16,23 +15,23 @@ public class General extends CommonSoldier implements UseWeapon, UseKnife, UseHa
     }
 
     public String eat (){
-        return "All we have are rations. Eat up!";
+        return "All we have are rations. Eat up..munch..munch";
     }
 
     public String usePrimaryWeapon(){
-     return "I used my AK-47.";
+     return "Rit-tat-rit-tat-rit";
     }
 
     public String useSecondaryWeapon(){
-        return "I used my platinum 9mm.";
+        return "Pop,pop,pop,pop.";
     }
 
     public String useKnife(){
-        return "I used my knife when I ran out of bullets.";
+        return "Ugh! Ugh!";
     }
 
     public String usePunch(){
-        return "I used a 1-2 combo when I punch.";
+        return "Jab jab jab jab.";
     }
 
 }
