@@ -1,6 +1,6 @@
 package com.company;
 
-public interface UseHandToHandCombat {
+public interface PunchThrower {
         String usePunch ();
     }
 

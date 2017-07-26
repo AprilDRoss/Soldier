@@ -1,6 +1,6 @@
 package com.company;
 
-public abstract class CommonSoldier implements UseWeapon, UseKnife, UseHandToHandCombat {
+public abstract class CommonSoldier implements GunSlinger, KnifeFighter, PunchThrower {
     String name;
     String rank;
     String ID;

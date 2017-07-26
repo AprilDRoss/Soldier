@@ -1,6 +1,6 @@
 package com.company;
 
-public interface UseWeapon {
+public interface GunSlinger {
         String usePrimaryWeapon();
         String useSecondaryWeapon();
     }

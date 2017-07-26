@@ -1,5 +1,5 @@
 package com.company;
 
-public interface UseKnife {
+public interface KnifeFighter {
     String useKnife();
 }
